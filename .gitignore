@@ -1,0 +1,24 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Dataset contents (keep folder via .gitkeep, ignore image files)
+dataset/*
+!dataset/.gitkeep
+
+# Auto-generated folders (created by code via os.makedirs)
+split_dataset/
+checkpoints/
+outputs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
